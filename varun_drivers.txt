@@ -1,0 +1,389 @@
+==============================================
+ SYSTEM INFORMATION REPORT
+ Generated on: Tue Nov 11 05:21:55 PM IST 2025
+==============================================
+
+1. Hardware and Drivers (lspci -k)
+----------------------------------------------
+00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe Root Complex (rev 01)
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe Root Complex
+00:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Family 17h-19h IOMMU
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Family 17h-19h IOMMU
+00:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe Dummy Host Bridge (rev 01)
+00:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe GPP Bridge
+	Subsystem: ASUSTeK Computer Inc. Device 1f23
+	Kernel driver in use: pcieport
+00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe Dummy Host Bridge (rev 01)
+00:02.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe GPP Bridge
+	Subsystem: ASUSTeK Computer Inc. Device 1f23
+	Kernel driver in use: pcieport
+00:02.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe GPP Bridge
+	Subsystem: ASUSTeK Computer Inc. Device 1f23
+	Kernel driver in use: pcieport
+00:02.4 PCI bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe GPP Bridge
+	Subsystem: ASUSTeK Computer Inc. Device 1f23
+	Kernel driver in use: pcieport
+00:03.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe Dummy Host Bridge (rev 01)
+00:04.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe Dummy Host Bridge (rev 01)
+00:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h PCIe Dummy Host Bridge (rev 01)
+00:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h Internal PCIe GPP Bridge (rev 10)
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Family 17h-19h Internal PCIe GPP Bridge
+	Kernel driver in use: pcieport
+00:08.3 PCI bridge: Advanced Micro Devices, Inc. [AMD] Family 17h-19h Internal PCIe GPP Bridge (rev 10)
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Family 17h-19h Internal PCIe GPP Bridge
+	Kernel driver in use: pcieport
+00:14.0 SMBus: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller (rev 71)
+	Subsystem: ASUSTeK Computer Inc. Device 1f23
+	Kernel driver in use: piix4_smbus
+	Kernel modules: i2c_piix4, sp5100_tco
+00:14.3 ISA bridge: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge (rev 51)
+	Subsystem: ASUSTeK Computer Inc. Device 1f23
+00:18.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Rembrandt Data Fabric: Device 18h; Function 0
+00:18.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Rembrandt Data Fabric: Device 18h; Function 1
+00:18.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Rembrandt Data Fabric: Device 18h; Function 2
+00:18.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Rembrandt Data Fabric: Device 18h; Function 3
+	Kernel driver in use: k10temp
+	Kernel modules: k10temp
+00:18.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Rembrandt Data Fabric: Device 18h; Function 4
+00:18.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Rembrandt Data Fabric: Device 18h; Function 5
+00:18.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Rembrandt Data Fabric: Device 18h; Function 6
+00:18.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Rembrandt Data Fabric: Device 18h; Function 7
+01:00.0 VGA compatible controller: NVIDIA Corporation GA107 [GeForce RTX 2050] (rev a1)
+	Subsystem: ASUSTeK Computer Inc. Device 1f23
+	Kernel driver in use: nouveau
+	Kernel modules: nouveau
+01:00.1 Audio device: NVIDIA Corporation GA107 High Definition Audio Controller (rev a1)
+	Subsystem: ASUSTeK Computer Inc. Device 1f23
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+02:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller (rev 15)
+	DeviceName: Onboard LAN Brodcom
+	Subsystem: ASUSTeK Computer Inc. Device 208f
+	Kernel driver in use: r8169
+	Kernel modules: r8169
+03:00.0 Network controller: Realtek Semiconductor Co., Ltd. RTL8852BE PCIe 802.11ax Wireless Network Controller
+	Subsystem: Foxconn International, Inc. Device e111
+	Kernel driver in use: rtw89_8852be
+	Kernel modules: rtw89_8852be
+04:00.0 Non-Volatile memory controller: Micron Technology Inc 2500 NVMe SSD (DRAM-less) (rev 01)
+	Subsystem: Micron Technology Inc Device 1100
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+05:00.0 Non-Essential Instrumentation [1300]: Advanced Micro Devices, Inc. [AMD/ATI] Dummy Function (absent graphics controller)
+	Subsystem: Advanced Micro Devices, Inc. [AMD/ATI] Device 1681
+05:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Family 19h PSP/CCP
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Family 19h PSP/CCP
+	Kernel driver in use: ccp
+05:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Rembrandt USB4 XHCI controller #3
+	Subsystem: ASUSTeK Computer Inc. Device 201f
+	Kernel driver in use: xhci_hcd
+05:00.4 USB controller: Advanced Micro Devices, Inc. [AMD] Rembrandt USB4 XHCI controller #4
+	Subsystem: ASUSTeK Computer Inc. Device 201f
+	Kernel driver in use: xhci_hcd
+05:00.5 Multimedia controller: Advanced Micro Devices, Inc. [AMD] Audio Coprocessor (rev 60)
+	Subsystem: ASUSTeK Computer Inc. Device 3bf0
+	Kernel driver in use: snd_pci_acp6x
+	Kernel modules: snd_pci_acp3x, snd_rn_pci_acp3x, snd_pci_acp5x, snd_pci_acp6x, snd_acp_pci, snd_rpl_pci_acp6x, snd_pci_ps, snd_sof_amd_renoir, snd_sof_amd_rembrandt, snd_sof_amd_vangogh, snd_sof_amd_acp63, snd_sof_amd_acp70
+05:00.6 Audio device: Advanced Micro Devices, Inc. [AMD] Family 17h/19h/1ah HD Audio Controller
+	DeviceName: HD Audio Controller
+	Subsystem: ASUSTeK Computer Inc. Device 3bf0
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+06:00.0 USB controller: Advanced Micro Devices, Inc. [AMD] Rembrandt USB4 XHCI controller #8
+	Subsystem: ASUSTeK Computer Inc. Device 201f
+	Kernel driver in use: xhci_hcd
+06:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Rembrandt USB4 XHCI controller #5
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Rembrandt USB4 XHCI controller #5
+	Kernel driver in use: xhci_hcd
+06:00.4 USB controller: Advanced Micro Devices, Inc. [AMD] Rembrandt USB4 XHCI controller #6
+	Subsystem: Advanced Micro Devices, Inc. [AMD] Rembrandt USB4 XHCI controller #6
+	Kernel driver in use: xhci_hcd
+
+2. Kernel Modules Loaded (lsmod)
+----------------------------------------------
+Module                  Size  Used by
+uinput                 32768  0
+rfcomm                110592  18
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+sunrpc                921600  1
+nf_conntrack_netbios_ns    12288  1
+nf_conntrack_broadcast    12288  1 nf_conntrack_netbios_ns
+nft_fib_inet           12288  1
+nft_fib_ipv4           12288  1 nft_fib_inet
+nft_fib_ipv6           12288  1 nft_fib_inet
+nft_fib                12288  3 nft_fib_ipv6,nft_fib_ipv4,nft_fib_inet
+nft_reject_inet        12288  10
+nf_reject_ipv4         12288  1 nft_reject_inet
+nf_reject_ipv6         20480  1 nft_reject_inet
+nft_reject             12288  1 nft_reject_inet
+nft_ct                 28672  9
+nft_chain_nat          12288  3
+nf_nat                 65536  1 nft_chain_nat
+nf_conntrack          212992  4 nf_nat,nft_ct,nf_conntrack_netbios_ns,nf_conntrack_broadcast
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         12288  1 nf_conntrack
+nf_tables             430080  281 nft_ct,nft_reject_inet,nft_fib_ipv6,nft_fib_ipv4,nft_chain_nat,nft_reject,nft_fib,nft_fib_inet
+qrtr                   57344  2
+bnep                   36864  2
+vfat                   24576  1
+fat                   126976  1 vfat
+snd_soc_acp6x_mach     40960  0
+snd_soc_dmic           12288  0
+snd_acp6x_pdm_dma      16384  0
+snd_sof_amd_acp70      16384  0
+rtw89_8852be           12288  0
+snd_sof_amd_acp63      16384  0
+rtw89_8852b           368640  1 rtw89_8852be
+snd_sof_amd_vangogh    16384  0
+snd_sof_amd_rembrandt    16384  0
+snd_sof_amd_renoir     16384  0
+rtw89_8852b_common     77824  1 rtw89_8852b
+snd_sof_amd_acp        73728  5 snd_sof_amd_acp70,snd_sof_amd_rembrandt,snd_sof_amd_vangogh,snd_sof_amd_acp63,snd_sof_amd_renoir
+snd_sof_pci            24576  5 snd_sof_amd_acp70,snd_sof_amd_rembrandt,snd_sof_amd_vangogh,snd_sof_amd_acp63,snd_sof_amd_renoir
+amd_atl                77824  1
+rtw89_pci             131072  1 rtw89_8852be
+snd_sof_xtensa_dsp     16384  1 snd_sof_amd_acp
+intel_rapl_msr         20480  0
+intel_rapl_common      61440  1 intel_rapl_msr
+snd_sof               516096  2 snd_sof_amd_acp,snd_sof_pci
+rtw89_core           1249280  3 rtw89_8852b,rtw89_pci,rtw89_8852b_common
+snd_sof_utils          16384  1 snd_sof
+snd_pci_ps             36864  0
+snd_soc_acpi_amd_match    12288  3 snd_sof_amd_acp70,snd_sof_amd_acp63,snd_pci_ps
+snd_amd_sdw_acpi       16384  2 snd_sof_amd_acp,snd_pci_ps
+soundwire_amd          53248  2 snd_sof_amd_acp,snd_pci_ps
+soundwire_generic_allocation    24576  1 soundwire_amd
+soundwire_bus        1212416  2 soundwire_generic_allocation,soundwire_amd
+snd_hda_codec_alc269   147456  1
+edac_mce_amd           40960  0
+snd_hda_scodec_component    20480  1 snd_hda_codec_alc269
+snd_soc_sdca          110592  1 soundwire_bus
+snd_hda_codec_realtek_lib    65536  1 snd_hda_codec_alc269
+snd_hda_codec_nvhdmi    16384  1
+snd_hda_codec_generic   139264  2 snd_hda_codec_realtek_lib,snd_hda_codec_alc269
+kvm_amd               253952  0
+snd_hda_codec_hdmi     65536  1 snd_hda_codec_nvhdmi
+mac80211             1949696  2 rtw89_core,rtw89_pci
+snd_soc_core          491520  6 snd_soc_acp6x_mach,snd_sof,snd_soc_sdca,snd_acp6x_pdm_dma,soundwire_amd,snd_soc_dmic
+snd_hda_intel          73728  4
+uvcvideo              192512  1
+snd_hda_codec         233472  6 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_nvhdmi,snd_hda_codec_realtek_lib,snd_hda_codec_alc269
+uvc                    12288  1 uvcvideo
+snd_compress           28672  1 snd_soc_core
+kvm                  1490944  1 kvm_amd
+videobuf2_vmalloc      20480  1 uvcvideo
+btusb                  81920  0
+ac97_bus               12288  1 snd_soc_core
+videobuf2_memops       16384  1 videobuf2_vmalloc
+snd_pcm_dmaengine      20480  1 snd_soc_core
+videobuf2_v4l2         40960  1 uvcvideo
+btrtl                  36864  1 btusb
+snd_rpl_pci_acp6x      16384  0
+snd_hda_core          159744  6 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek_lib,snd_hda_codec_alc269
+videobuf2_common      102400  4 videobuf2_vmalloc,videobuf2_v4l2,uvcvideo,videobuf2_memops
+snd_acp_pci            16384  0
+btintel                73728  1 btusb
+snd_amd_acpi_mach      12288  1 snd_acp_pci
+snd_intel_dspcfg       45056  2 snd_hda_intel,snd_sof
+btbcm                  24576  1 btusb
+snd_acp_legacy_common    28672  1 snd_acp_pci
+snd_intel_sdw_acpi     16384  1 snd_intel_dspcfg
+videodev              421888  2 videobuf2_v4l2,uvcvideo
+btmtk                  32768  1 btusb
+snd_pci_acp6x          20480  0
+asus_nb_wmi            32768  0
+snd_hwdep              24576  1 snd_hda_codec
+libarc4                12288  1 mac80211
+snd_seq               135168  7 snd_seq_dummy
+asus_wmi              122880  1 asus_nb_wmi
+spd5118                16384  0
+irqbypass              16384  1 kvm
+sparse_keymap          12288  1 asus_wmi
+bluetooth            1097728  44 btrtl,btmtk,btintel,btbcm,bnep,btusb,rfcomm
+mc                     94208  5 videodev,videobuf2_v4l2,uvcvideo,videobuf2_common
+snd_seq_device         16384  1 snd_seq
+cfg80211             1527808  3 rtw89_core,mac80211,rtw89_8852b_common
+rapl                   20480  0
+platform_profile       20480  1 asus_wmi
+wmi_bmof               12288  0
+pcspkr                 12288  0
+snd_pcm               212992  16 snd_sof_amd_acp,snd_hda_codec_hdmi,snd_pci_acp6x,snd_acp_legacy_common,snd_hda_intel,snd_hda_codec,snd_sof,snd_soc_sdca,snd_acp6x_pdm_dma,snd_compress,snd_soc_core,snd_sof_utils,soundwire_amd,snd_hda_core,snd_pci_ps,snd_pcm_dmaengine
+snd_pci_acp5x          20480  0
+nvidia_wmi_ec_backlight    12288  0
+snd_rn_pci_acp3x       24576  0
+r8169                 151552  0
+snd_acp_config         20480  10 snd_rn_pci_acp3x,snd_sof_amd_acp70,snd_pci_acp6x,snd_pci_acp5x,snd_sof_amd_rembrandt,snd_sof_amd_vangogh,snd_sof_amd_acp63,snd_acp_pci,snd_pci_ps,snd_sof_amd_renoir
+snd_timer              57344  3 snd_seq,snd_hrtimer,snd_pcm
+snd_soc_acpi           16384  5 snd_sof_amd_acp,snd_acp_legacy_common,snd_acp_config,snd_amd_acpi_mach,snd_pci_ps
+i2c_piix4              40960  0
+snd                   155648  25 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_sof,snd_soc_sdca,snd_timer,snd_hda_codec_realtek_lib,snd_compress,snd_hda_codec_alc269,snd_soc_core,snd_pcm
+rfkill                 45056  9 rtw89_core,asus_wmi,bluetooth,cfg80211
+snd_pci_acp3x          20480  0
+soundcore              12288  1 snd
+k10temp                16384  0
+i2c_smbus              20480  1 i2c_piix4
+realtek                53248  1
+amd_pmc                57344  0
+joydev                 36864  0
+loop                   49152  0
+nfnetlink              20480  3 nf_tables
+zram                   73728  1
+lz4hc_compress         20480  1 zram
+lz4_compress           24576  1 zram
+dm_crypt               77824  1
+nouveau              3985408  129
+drm_ttm_helper         16384  1 nouveau
+ttm                   135168  2 drm_ttm_helper,nouveau
+gpu_sched              69632  1 nouveau
+i2c_algo_bit           20480  1 nouveau
+drm_gpuvm              49152  1 nouveau
+nvme                   73728  3
+drm_exec               12288  2 drm_gpuvm,nouveau
+mxm_wmi                12288  1 nouveau
+ucsi_acpi              12288  0
+drm_display_helper    331776  1 nouveau
+nvme_core             274432  4 nvme
+typec_ucsi             77824  1 ucsi_acpi
+typec                 118784  1 typec_ucsi
+hid_multitouch         36864  0
+video                  81920  4 nvidia_wmi_ec_backlight,asus_wmi,asus_nb_wmi,nouveau
+nvme_keyring           20480  1 nvme_core
+thunderbolt           602112  1 typec
+polyval_clmulni        12288  0
+ghash_clmulni_intel    12288  0
+cec                   106496  1 drm_display_helper
+nvme_auth              32768  1 nvme_core
+sp5100_tco             20480  0
+i2c_hid_acpi           12288  0
+wmi                    32768  6 video,nvidia_wmi_ec_backlight,asus_wmi,wmi_bmof,mxm_wmi,nouveau
+i2c_hid                49152  1 i2c_hid_acpi
+serio_raw              20480  0
+fuse                  274432  3
+i2c_dev                28672  0
+
+
+3. Full System Overview (inxi -Fxxx)
+----------------------------------------------
+System:
+  Host: fedora Kernel: 6.17.7-300.fc43.x86_64 arch: x86_64 bits: 64
+    compiler: gcc v: 15.2.1 clocksource: tsc
+  Desktop: KDE Plasma v: 6.5.2 tk: Qt v: N/A wm: kwin_wayland vt: 2 dm: SDDM
+    Distro: Fedora Linux 43 (KDE Plasma Desktop Edition)
+Machine:
+  Type: Laptop System: ASUSTeK product: ASUS TUF Gaming A15 FA506NFR_FA566NFR
+    v: 1.0 serial: <superuser required>
+  Mobo: ASUSTeK model: FA506NFR v: 1.0 serial: <superuser required>
+    uuid: <superuser required> UEFI: American Megatrends LLC. v: FA506NFR.304
+    date: 01/08/2025
+Battery:
+  ID-1: BAT1 charge: 9 Wh (20.8%) condition: 43.2/48 Wh (89.9%) volts: 10.82
+    min: 11.68 model: ASUS A32-K55 type: Li-ion serial: N/A charging:
+    status: discharging cycles: N/A
+CPU:
+  Info: 8-core model: AMD Ryzen 7 7435HS bits: 64 type: MT MCP smt: enabled
+    arch: Zen 3+ rev: 1 cache: L1: 512 KiB L2: 4 MiB L3: 16 MiB
+  Speed (MHz): avg: 1097 min/max: 412/4554 boost: enabled cores: 1: 1097
+    2: 1097 3: 1097 4: 1097 5: 1097 6: 1097 7: 1097 8: 1097 9: 1097 10: 1097
+    11: 1097 12: 1097 13: 1097 14: 1097 15: 1097 16: 1097 bogomips: 99012
+  Flags-basic: avx avx2 ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 sse4a
+    ssse3 svm
+Graphics:
+  Device-1: NVIDIA GA107 [GeForce RTX 2050] vendor: ASUSTeK driver: nouveau
+    v: kernel arch: Turing pcie: speed: 5 GT/s lanes: 8 ports: active: eDP-1
+    empty: DP-1,HDMI-A-1 bus-ID: 01:00.0 chip-ID: 10de:25ad class-ID: 0300
+  Device-2: Shine-optics USB2.0 HD UVC WebCam driver: uvcvideo type: USB
+    rev: 2.0 speed: 480 Mb/s lanes: 1 bus-ID: 1-4:2 chip-ID: 3277:0029
+    class-ID: 0e02 serial: 0001
+  Display: wayland server: Xwayland v: 24.1.9 compositor: kwin_wayland
+    driver: gpu: nouveau display-ID: 0
+  Monitor-1: eDP-1 model: G156EC01 eDP-1-0x0998 res: mode: 1920x1080 hz: 144
+    scale: 100% (1) dpi: 141 size: 345x195mm (13.58x7.68") diag: 396mm (15.6")
+    modes: max: 1920x1080 min: 640x350
+  API: EGL v: 1.5 platforms: device: 0 drv: zink device: 1 drv: swrast gbm:
+    drv: zink surfaceless: drv: zink wayland: drv: zink x11: drv: zink
+  API: OpenGL v: 4.6 compat-v: 4.5 vendor: mesa v: 25.2.5 glx-v: 1.4
+    direct-render: yes renderer: zink Vulkan 1.4(NVIDIA GeForce RTX 2050 (NVK
+    GA107) (MESA_NVK)) device-ID: 10de:25ad display-ID: :0.0
+  API: Vulkan v: 1.4.321 layers: 1 surfaces: N/A device: 0
+    type: discrete-gpu driver: mesa nvk device-ID: 10de:25ad device: 1 type: cpu
+    driver: mesa llvmpipe device-ID: 10005:0000
+  Info: Tools: api: clinfo, eglinfo, glxinfo, vulkaninfo
+    de: kscreen-console,kscreen-doctor wl: wayland-info x11: xdriinfo,
+    xdpyinfo, xprop, xrandr
+Audio:
+  Device-1: NVIDIA GA107 High Definition Audio vendor: ASUSTeK
+    driver: snd_hda_intel v: kernel pcie: speed: 5 GT/s lanes: 8 bus-ID: 01:00.1
+    chip-ID: 10de:2291 class-ID: 0403
+  Device-2: Advanced Micro Devices [AMD] Audio Coprocessor vendor: ASUSTeK
+    driver: snd_pci_acp6x v: kernel pcie: speed: 16 GT/s lanes: 16
+    bus-ID: 05:00.5 chip-ID: 1022:15e2 class-ID: 0480
+  Device-3: Advanced Micro Devices [AMD] Family 17h/19h/1ah HD Audio
+    vendor: ASUSTeK driver: snd_hda_intel v: kernel pcie: speed: 16 GT/s
+    lanes: 16 bus-ID: 05:00.6 chip-ID: 1022:15e3 class-ID: 0403
+  API: ALSA v: k6.17.7-300.fc43.x86_64 status: kernel-api
+  Server-1: PipeWire v: 1.4.9 status: active with: 1: pipewire-pulse
+    status: active 2: wireplumber status: active 3: pipewire-alsa type: plugin
+    4: pw-jack type: plugin
+Network:
+  Device-1: Realtek RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet
+    vendor: ASUSTeK driver: r8169 v: kernel pcie: speed: 2.5 GT/s lanes: 1
+    port: e000 bus-ID: 02:00.0 chip-ID: 10ec:8168 class-ID: 0200
+  IF: eno1 state: down mac: bc:fc:e7:53:eb:33
+  Device-2: Realtek RTL8852BE PCIe 802.11ax Wireless Network vendor: Foxconn
+    driver: rtw89_8852be v: kernel pcie: speed: 2.5 GT/s lanes: 1 port: d000
+    bus-ID: 03:00.0 chip-ID: 10ec:b852 class-ID: 0280
+  IF: wlp3s0 state: up mac: ea:de:03:9d:f5:6d
+Bluetooth:
+  Device-1: Foxconn / Hon Hai Bluetooth Radio driver: btusb v: 0.8 type: USB
+    rev: 1.0 speed: 12 Mb/s lanes: 1 bus-ID: 3-3:2 chip-ID: 0489:e123
+    class-ID: e001 serial: 00e04c000001
+  Report: btmgmt ID: hci0 rfk-id: 0 state: up address: 04:68:74:5E:17:78
+    bt-v: 5.2 lmp-v: 11 class-ID: 7c010c
+Drives:
+  Local Storage: total: 476.94 GiB used: 36.7 GiB (7.7%)
+  ID-1: /dev/nvme0n1 vendor: Micron model: MTFDKBA512QGN-1BN1AABGA
+    size: 476.94 GiB speed: 63.2 Gb/s lanes: 4 tech: SSD serial: 24474CAC0519
+    fw-rev: V8MA000 temp: 35.9 C scheme: GPT
+Partition:
+  ID-1: / size: 474.34 GiB used: 36.09 GiB (7.6%) fs: btrfs dev: /dev/dm-0
+    mapped: luks-9a4e799d-53c5-4e07-802f-e3c42b2d2be9
+  ID-2: /boot size: 1.9 GiB used: 615 MiB (31.6%) fs: ext4
+    dev: /dev/nvme0n1p2
+  ID-3: /boot/efi size: 598.8 MiB used: 19.3 MiB (3.2%) fs: vfat
+    dev: /dev/nvme0n1p1
+  ID-4: /home size: 474.34 GiB used: 36.09 GiB (7.6%) fs: btrfs
+    dev: /dev/dm-0 mapped: luks-9a4e799d-53c5-4e07-802f-e3c42b2d2be9
+Swap:
+  ID-1: swap-1 type: zram size: 8 GiB used: 0 KiB (0.0%) priority: 100
+    dev: /dev/zram0
+Sensors:
+  System Temperatures: cpu: 42.0 C mobo: N/A
+  Fan Speeds (rpm): cpu: 2000
+Info:
+  Memory: total: 16 GiB available: 15.42 GiB used: 2.08 GiB (13.5%)
+  Processes: 384 Power: uptime: 1h 0m states: freeze,mem,disk
+    suspend: s2idle wakeups: 0 hibernate: platform Init: systemd v: 258
+    default: graphical
+  Packages: pm: rpm pkgs: N/A note: see --rpm pm: flatpak pkgs: 12
+    Compilers: gcc: 15.2.1 Shell: systemspec.sh default: Bash v: 5.3.0
+    running-in: konsole inxi: 3.3.39
+
+4. USB Devices (lsusb)
+----------------------------------------------
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 3277:0029 Shine-optics USB2.0 HD UVC WebCam
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 003 Device 002: ID 0489:e123 Foxconn / Hon Hai Bluetooth Radio
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 005 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 006 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 007 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 008 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 009 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 010 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+
+==============================================
+ Report Completed
+ Saved to: system_info_output.txt
